@@ -1,0 +1,92 @@
+.box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /*border: 2px solid black;*/
+    margin-top: 50px;
+    background-color: rgb(113, 144, 160);
+    overflow: hidden;
+}
+.sun{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255,165,0,0.7);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    animation: sun 6.5s ease-in-out;
+}
+.img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    opacity: 0.5;
+    animation: img 5s linear;
+}
+.img1{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    opacity: 0.5;
+    animation: img1 2.5s ease-in;
+    animation-delay: 2.5s;
+
+}
+.img2{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    opacity: 0.5;
+    animation: img2 5s ease-out;
+    /*animation-delay: 1.5s;*/
+    
+}
+@keyframes img{
+  from{
+    left: -10px;
+    top: 20px;
+  }
+    to{
+        left: 100%;
+        top: 20px;
+    }
+}
+@keyframes img1{
+  from{
+    left: 500px;
+    top: 30px;
+  }
+    to{
+        left: 110%;
+        top: 30px;
+    }
+}
+@keyframes img2{
+  from{
+    top: 30px;
+    right: -10px;
+  }
+    to{
+        right: 110%;
+        top: 30px;
+    }
+}
+@keyframes sun{
+  from{
+    top: 50px;
+    left: -20px;
+    background-color: rgba(255,165,0,0.7);
+  }
+    to{
+        left: 110%;
+        top: 50px;
+        background-color: rgba(255,165,0,0.9);
+    }
+}
