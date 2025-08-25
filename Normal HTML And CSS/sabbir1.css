@@ -1,0 +1,144 @@
+.main{
+    width: 1000px;
+    height: 540px;
+    background-color: mediumaquamarine;
+}
+.row1{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(8, 150, 245);
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(17, 19, 107);
+}
+.row2-col1{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(8, 43, 241);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.row2-col2{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(42, 63, 185);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.row2-col3{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(62, 79, 175);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.row2-col4{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(3, 11, 58);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.row2-col5{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 0, 2);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(137, 25, 211);
+}
+.row3-col1{
+    float: left;
+}
+.row3-col1-row1{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(139, 142, 156);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.row3-col2-row2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(46, 58, 131);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.row3-col3-row3{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(24, 52, 207);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.row3-col4-row4{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(5, 36, 214);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.row3-col5-row5{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(8, 43, 241);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.row3-col2{
+    float: left;
+}
+.row4{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(147, 21, 206);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.row5-col1{
+    background-color: rgb(17, 19, 107);
+    float: left;
+}
+.row5-col2{
+    background-color: rgb(112, 198, 255);
+    float: left;
+}
+.row5-col3{
+    background-color: rgb(136, 137, 199);
+    float: left;
+}
+.row6{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
