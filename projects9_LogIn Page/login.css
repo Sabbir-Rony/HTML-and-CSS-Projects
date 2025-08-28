@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #800000 0%, #1e3a8a 50%, #800000 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.login-container {
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 600px;
+    height: 350px;
+}
+.logo-section {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.logo-section img {
+    width: 180px;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+@keyframes floatUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+.form-section {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+}
+.form-section h2 {
+    margin-bottom: 20px;
+    color:#800000;
+    font-size: 20px;
+    position: relative;
+}
+.form-section h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, #800000 0%, #1e3a8a 50%, #800000 100%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-radius: 2px;
+}
+.form-section h2::after {
+    animation: floatLeftRight 3s ease-in-out;
+}
+@keyframes floatLeftRight {
+    0% { width: 0;}
+    100% { width: 50px;}
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    color: #22328f;
+    font-size: 10px;
+}
+.form-section input[type="text"],
+.form-section input[type="password"] {
+    width: 100%;
+    padding: 7px;
+    margin: 7px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+    color: #22328f;
+}
+.form-section input[type="text"]:focus,
+.form-section input[type="password"]:focus {
+    border-color: #8b0000;
+    box-shadow: 0 0 8px rgba(139,0,0,0.3);
+}
+.form-section label {
+    font-size: 14px;
+    color: #56565e;
+}
+.form-section button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #8b0000, #00008b);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.form-section button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+footer{
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 20px;
+}
