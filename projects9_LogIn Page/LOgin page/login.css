@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background:linear-gradient(magenta, blue, red);
+    position: relative;
+    padding: 30px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-container{
+    background: linear-gradient(rgb(80, 213, 218), rgb(34, 211, 108), rgb(85, 161, 33));
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.form-section{
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+.form-section h2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+}
+.form-group {
+    margin-bottom: 30px;
+    color: #22328f;
+    font-size: 20px;
+}
+.form-section input[type="text"],
+.form-section input[type="password"] {
+    padding: 7px;
+    margin: 7px 0;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    transition: 0.3s;
+    color: #22328f;
+    align-items: center;
+}
+.form-section input[type="text"]:focus,
+.form-section input[type="password"]:focus {
+    border-color: #8b0000;
+    box-shadow: 0 0 8px rgba(139,0,0,0.3);
+}
+.form-section label {
+    font-size: 25px;
+    color: #b2b2eb;
+}
+.form-section button {
+    width: 150px;
+    padding: 10px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #8b0000, #00008b);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+.form-section button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+.footer{
+    margin-top: 10px;
+    padding: 15px 20px ;
+    text-align: center;
+    background: linear-gradient(90deg, #23c2ce, #4949fc);
+    color: #fff;
+    border-radius: 0 0 20px 20px;
+    width: 600px;
+}
